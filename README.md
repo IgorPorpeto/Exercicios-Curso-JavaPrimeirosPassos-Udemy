@@ -28,3 +28,4 @@ O aprendizado foi estruturado em módulos progressivos, acompanhados de exercíc
 
 ---
 *Repositório focado em fundamentos e prática constante.*
+*Repositório mantido por Igor - Estudante de Análise e Desenvolvimento de Sistemas.*
