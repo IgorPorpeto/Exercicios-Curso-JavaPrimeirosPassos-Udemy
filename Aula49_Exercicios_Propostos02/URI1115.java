@@ -1,0 +1,35 @@
+package Exercicios_Udemy_Java_Primeiros_Passos.Aula49_Exercicios_Propostos02;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class URI1115 {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        while (x != 0 && y != 0) {
+            if (x > 0 && y > 0) {
+                System.out.println("Primeiro");
+            }
+            else if (x < 0 && y > 0) {
+                System.out.println("Segundo");
+            }
+            else if (x < 0 && y < 0) {
+                System.out.println("Terceiro");
+            }
+            else {
+                System.out.println("Quarto");
+            }
+            
+            x = sc.nextInt();
+            y = sc.nextInt();
+        }
+
+        sc.close();
+    }
+    
+}
